@@ -1,0 +1,69 @@
+@font-face {
+    font-family: "Archive";
+    src: url(Fonts/Archive_font/Archive_regular.otf);
+}
+
+@font-face {
+    font-family: "Roboto_Regular";
+    src: url(Fonts/Roboto_Font/Roboto_Regular.ttf);
+}
+
+@font-face {
+    font-family: "Roboto_Mono_Regular";
+    src: url(Fonts/Roboto_Font/Roboto_Mono_Regular.ttf);
+}
+
+
+
+body {
+    background-color: #101010;
+    display: block;
+}
+
+.main_header {
+    color: #FFFFFF;
+    font-family: "Roboto_Mono_Regular";
+    font-size: 2.5rem;
+    padding: 1rem;
+    margin: 0 auto;
+    width: 45rem;
+}
+
+.about_divider {
+    background-color: #2c2c2c;
+    padding: 0.5rem;
+    border-radius: 5px;
+    width: 100rem;
+    margin: 0 auto;
+}
+
+.about_divider_header {
+    color: #FFFFFF;
+    font-family: "Roboto_Regular"
+}
+
+.about_divider_main_paragraph {
+    color: #FFFFFF;
+    font-family: "Roboto_Regular";
+    text-indent: 0.7rem;
+}
+
+.legal_divider {
+    background-color: #2c2c2c;
+    padding: 0.5rem;
+    border-radius: 5px;
+    width: 100rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+.legal_divider_header {
+    color: #FFFFFF;
+    font-family: "Roboto_Regular"
+}
+
+.legal_divider_main_paragraph {
+    color: #FFFFFF;
+    font-family: "Roboto_Regular";
+    text-indent: 0.7rem;
+}
